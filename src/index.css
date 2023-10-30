@@ -48,15 +48,16 @@ code {
 
 .gallery {
   list-style: none;
-  padding: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
 }
 
 .gallery-item {
-  width: calc(50% - 10px);
+  width: calc(30% - 10px);
   margin: 0 5px 10px 5px; 
+  max-width: 500px;
+  max-height: 700px;
 }
 
 
